@@ -1462,7 +1462,8 @@
 		-ms-flex-direction: column;
 		flex-direction: column;
 		position: relative;
-		max-width: 100%;
+		<!–– max-width: 100%; -->
+		max-width: 2px;
 		z-index: 3;
 	}
 
