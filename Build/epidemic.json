@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "ParticleEpi",
+"dataUrl": "epidemic.data.unityweb",
+"asmCodeUrl": "epidemic.asm.code.unityweb",
+"asmMemoryUrl": "epidemic.asm.memory.unityweb",
+"asmFrameworkUrl": "epidemic.asm.framework.unityweb",
+"TOTAL_MEMORY": 536870912,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
