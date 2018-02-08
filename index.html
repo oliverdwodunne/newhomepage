@@ -10,7 +10,12 @@
     		<script>
      		 var gameInstance1 = UnityLoader.instantiate("gameContainer1", "Build1/epidemic.json");
     		</script>
- 		 </head>
+    		<script src="TemplateData/UnityProgress.js"></script>  
+		<script src="Build2/UnityLoader.js"></script>
+    		<script>
+      		var gameInstance2 = UnityLoader.instantiate("gameContainer2", "Build/reeeeeeeeeeeeeee.json", {onProgress: UnityProgress});
+    		</script>
+ 		</head>
 		<title>Grinnell Statistics Games</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -60,9 +65,11 @@
 						<!-- Racer-->
 							<article id="racer">
 								<h2 class="major">Racer</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+								 <div id="gameContainer2" style="width: 1000px; height: 563px"></div>
+								<br>
+								<a href="https://docs.google.com/spreadsheets/d/1PcReB-N_T5goRgRlknXe2J7WZw5bl3DnD1dqx_bF1Nk"  target="_blank">Data Spreadsheet</a>
+    								<br>
+   								<a href= "https://docs.google.com/document/d/1wWuGjNOJTTICPxzSvInlDeWaSoEurL8yVH9CmwvpGSQ" target="_blank">Comment List</a>
 							</article>
 
 						<!-- Racerrandom -->
