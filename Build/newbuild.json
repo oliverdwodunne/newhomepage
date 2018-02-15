@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Els Easy Racer",
+"dataUrl": "newbuild.data.unityweb",
+"asmCodeUrl": "newbuild.asm.code.unityweb",
+"asmMemoryUrl": "newbuild.asm.memory.unityweb",
+"asmFrameworkUrl": "newbuild.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
